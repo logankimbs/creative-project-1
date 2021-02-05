@@ -19,7 +19,7 @@
 }
 
 /* Desktop Styles */
-@media only screen and (min-width: 1024) {
+@media only screen and (min-width: 1024px) {
     body {
         background-color: #B2D6FF;
     }
