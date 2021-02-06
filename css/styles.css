@@ -4,9 +4,24 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 1.825em;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 1.225em;
+    margin-bottom: 4px;
+}
+
+p {
+    line-height: 1.5em;
+    margin-bottom: 12px;
+}
+
 /* Navbar */
 .navbar {
-    background-color: rgb(164, 172, 148);
+    background-color: rgb(164, 172, 148, 0.5);
     overflow: hidden;
 }
 
@@ -66,10 +81,70 @@
 }
 
 /* Header */
+.header {
+    margin-bottom: 41px;
+}
+
 img {
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+/* Greeting Card */
+.greeting-card {
+    background-color: rgba(219, 182, 163, 0.5);
+}
+
+.greeting-card-text {
+    color: rgb(48, 48, 48);
+    margin: 0 25px;
+    padding: 35px 24px;
+}
+
+/* Showcase Img */
+.showcase-img {
+    margin-bottom: 41px;
+}
+
+/* Gratitude Card */
+.gratitude-card {
+    background-color: rgba(219, 182, 163, 0.5);
+}
+
+.gratitude-card-text {
+    text-align: center;
+    color: rgb(48, 48, 48);
+    padding: 12px 24px;
+    font-weight: lighter;
+    letter-spacing: 1.3px;
+    margin-bottom: 24px;
+}
+
+.heart {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    /* border-top: 1px rgba(48, 48, 48, 0.808) solid; */
+    background-color: rgba(219, 182, 163, 0.5);
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    text-align: center;
+    color: rgb(48, 48, 48);
+    padding: 12px 24px;
+    font-weight: lighter;
+    letter-spacing: 1.3px;
+}
+
+a.footer-link {
+    font-size: 16px;
+    color: rgb(48, 48, 48);
 }
 
 /* Menu Item */
@@ -80,15 +155,6 @@ img {
 
 .menu-item-image {
     margin: 0 10px;
-}
-
-h1 {
-    font-size: 1.825em;
-    margin-bottom: 10px;
-}
-
-p {
-    margin-bottom: 15px;
 }
 
 .menu-item-description {
@@ -102,11 +168,6 @@ p {
     padding: 0 5px;
     height: 400px;
     margin-bottom: 5px;
-}
-
-.header {
-    height: 500px;
-    margin-bottom: 30px;
 }
 
 /* Mobile Styles */
@@ -134,7 +195,7 @@ p {
 
 /* Desktop Styles */
 @media only screen and (min-width: 1024px) {
-    main {
+    body {
         max-width: 1024px;
         margin: 0 auto;
     }

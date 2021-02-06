@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creative Project 1</title>
+        <meta charset='utf-8'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel='stylesheet' href='../css/styles.css'/>
+    </head>
+    <body>
+        <div class="navbar" id="navbar">
+            <a href="../index.html" class="navbar-brand">Jaime's Bakes</a>
+            <a href="../pages/menu.html">Menu</a>
+            <a href="../pages/contact.html">Contact</a>
+            <a href="../pages/about.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleIcon()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <main>
+            <div class="header">
+                <img src="../images/dough.jpg">
+            </div>
+
+            <div class="greeting-card">
+                <div class="greeting-card-text">
+                    <h1>Hey!</h1>
+                    <p>Baking is such a big part of my life and it brings me lots of joy. I hope that you are able to see that joy in what I post and are also able to feel that joy for yourself.</p>
+                </div>
+            </div>
+
+            <img src="../images/turnover.jpg" div class="showcase-img">
+            <img src="../images/cake.jpg" div class="showcase-img">
+            <img src="../images/focaccia.jpg" div class="showcase-img">
+
+            <div class="gratitude-card">
+                <div class="gratitude-card-text">
+                    <p style="margin-bottom: 0">Love you <span class="heart">❤️</span></p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-text">
+                <p style="margin-bottom: 4px;">Jaime's Bakes 2021</p>
+                <a href="https://github.com/logankimbs/creative-project-1" class="footer-link" target="blank">GitHub</p>
+            </div>
+        </footer>
+
+        <script>
+            function toggleIcon() {
+                var x = document.getElementById("navbar");
+
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar";
+                }
+            }
+        </script>
+    </body>
+</html>
