@@ -80,12 +80,33 @@ img {
 
 .menu-item-image {
     margin: 0 10px;
+}
+
+h1 {
+    font-size: 1.825em;
     margin-bottom: 10px;
 }
 
+p {
+    margin-bottom: 15px;
+}
+
 .menu-item-description {
-    padding: 0 20px;
+    border: black 1px solid;
+    margin: 0 10px;
+    padding: 15px;
     margin-bottom: 65px;
+}
+
+.about-item-image {
+    padding: 0 5px;
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+.header {
+    height: 500px;
+    margin-bottom: 30px;
 }
 
 /* Mobile Styles */
