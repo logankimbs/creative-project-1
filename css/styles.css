@@ -68,8 +68,24 @@
 /* Header */
 img {
     width: 100%;
-    height: 125px;
+    height: 300px;
     object-fit: cover;
+}
+
+/* Menu Item */
+.menu-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item-image {
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item-description {
+    padding: 0 20px;
+    margin-bottom: 65px;
 }
 
 /* Mobile Styles */
@@ -87,10 +103,21 @@ img {
     .navbar a.icon {
         display: none;
     }
+
+    img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 1024px) {
+    main {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
     .navbar a:not(:first-child) {
         display: block;
         margin: 3px 0;
@@ -98,5 +125,12 @@ img {
 
     .navbar a.icon {
         display: none;
+    }
+
+    .menu-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 30px;
     }
 }
