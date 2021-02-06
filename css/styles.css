@@ -102,6 +102,20 @@ img {
     padding: 35px 24px;
 }
 
+.greeting-card-menu {
+    background-color: rgba(219, 182, 163, 0.5);
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+.greeting-card-text-menu {
+    color: rgb(48, 48, 48);
+    margin: 0 25px;
+    padding: 0 24px;
+    padding-top: 35px;
+    padding-bottom: 12px;;
+}
+
 /* Showcase Img */
 .showcase-img {
     margin-bottom: 41px;
@@ -147,27 +161,35 @@ a.footer-link {
     color: rgb(48, 48, 48);
 }
 
-/* Menu Item */
-.menu-item {
-    display: flex;
-    flex-direction: column;
+/* Menu Card */
+.menu-card {
+    margin: 0 40px;
+    margin-bottom: 41px;
 }
 
-.menu-item-image {
-    margin: 0 10px;
+.menu-img {
+    margin-bottom: 0;
+    /* border: 1px rgba(48, 48, 48, 0.658) solid; */
+    border-bottom: none;
 }
 
-.menu-item-description {
-    border: black 1px solid;
-    margin: 0 10px;
-    padding: 15px;
-    margin-bottom: 65px;
+.menu-text {
+    margin-top: -4px;
+    /* border: 1px rgba(48, 48, 48, 0.658) solid; */
+    padding: 0 25px;
+    background-color: rgb(250, 241, 229);
+    padding-top: 12px;
 }
 
-.about-item-image {
-    padding: 0 5px;
-    height: 400px;
-    margin-bottom: 5px;
+.menu-text h1 {
+    font-size: 26px;
+    margin-bottom: 6px;
+    font-weight: lighter;
+}
+
+.menu-text p {
+    padding-bottom: 28px;
+    margin-bottom: 0;
 }
 
 /* Mobile Styles */
