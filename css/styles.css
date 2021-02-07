@@ -25,6 +25,10 @@ p {
     overflow: hidden;
 }
 
+a .nav-link {
+    color: rgb(29, 59, 56);
+}
+
 .navbar a {
     float: left;
     display: block;
